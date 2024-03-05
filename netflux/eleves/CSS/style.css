@@ -1,0 +1,356 @@
+body{
+    background-color: #141414;
+}
+
+
+.ex1{
+    margin-top: 10%;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 3.5vw;
+    color: white;
+}
+
+h2{
+    padding-left: 15px;
+}
+
+
+
+div>ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;  
+}
+
+
+
+div>ul>li{
+    padding: 8px;
+}
+
+
+
+span{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    padding-block: 15px;    
+    padding-inline: 0px;    
+    font-size: 1.3vw;
+    color: grey
+}
+
+
+
+#acc{
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+li:hover>span{
+    color: white;
+}
+
+
+
+
+nav>ul{
+    padding-block: 0px;    
+    padding-inline: 20px;  
+    color: white;
+    list-style: none;
+}
+
+h2{
+    color: white;
+    padding-block: 0px;
+    padding-inline: 15em;
+    padding-top: 5%;
+}
+
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav>ul>li{
+    padding-inline: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.list:hover{
+    cursor: pointer;
+}
+
+#s:hover,#p:hover{
+    color:white;
+    background-color: black;
+}
+
+
+.imgF:hover{
+    border : 1px solid rgb(133, 133, 133);;
+}
+
+.liste-films {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.film {
+    display: inline-block;
+    margin: 10px;
+}
+
+.imgF {
+    width: 250px;
+    height: 350px;
+}
+
+
+.infos {
+    display: list-item;
+    padding-left: 10px;
+    color: rgb(253, 253, 253);
+    margin-top: 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+
+#imgAf{
+    display: flex;
+    justify-content: right;
+}
+
+.film-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.film_bouton{
+    display: inline-block;
+    align-items: center;
+
+}
+
+#regarder{
+	text-align: center;
+	background-color: #48bdd7;
+	width: 100%;
+	border: none;
+	padding: 0.5em;
+	font-weight:bold;
+	color: white;
+	font-size: 15px;
+}
+
+.imgaF{
+    width: 325px;
+    height: 450px;
+}
+
+/*----------------------------------------------TRI FILMS----------------------------------------------*/
+
+
+
+.element{
+    display: inline-block;
+    padding-inline: 20px;
+}
+
+
+.c{
+    text-decoration: none;
+    color: white;
+}
+
+
+#bouton_t {
+    padding: 10px;
+    background-color: rgb(60, 57, 57);
+    color: #fff;
+    border-radius: 15%;
+    cursor: pointer;
+    border: none;
+  }
+
+
+
+
+.choix_trie {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+.choix_trie .b ,.c {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+  }
+
+.choix_trie .b:hover, .c:hover {
+    background-color: #ddd;
+  }
+
+#menu_deroulant:hover .choix_trie  {
+    display: block;
+  }
+
+
+#requete{
+    display: flex;
+    color: white;
+    font-size: large;
+    font-style: bold;
+  }
+
+#pseudo{
+    color: red;
+    font-weight: bold;
+}
+
+
+.connexion{
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+    text-align: center;
+    border: none;
+    background-color: #707070;
+    width: 150px;
+    border-radius: 25%;
+    height: 50px;
+    
+}
+
+.connexion:hover{
+    opacity: 0.8;
+}
+
+
+.blanc{
+    color: white;
+}
+
+
+/*-------------Menu deroulant deconnexion-------------*/
+
+#bouton_co {
+    padding: 10px;
+    background-color: rgb(60, 57, 57);
+    color: #fff;
+    border-radius: 15%;
+    border: none;
+}
+
+.choix_tries {
+    padding-top: 5px;
+    display: none;
+    position: absolute;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 150px; 
+}
+
+#deco {
+    border-radius: 5%;
+    width: 80%;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    background-color: #c11111;
+    color: white;
+}
+
+.menu_deroulant:hover .choix_tries {
+    display: block;
+}
+
+.menu_deroulant{
+    position: absolute;
+    right: 40px;
+}
+
+
+video{
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover;
+}
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

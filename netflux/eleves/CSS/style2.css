@@ -1,0 +1,109 @@
+body{
+	background-color: #3e3e3e;
+}
+.cadre{
+	background-color :  #767977 ;
+	border-radius: 15%;
+	border: 2px solid black;
+	text-align : center;
+	font-family: Arial, Helvetica, sans-serif;
+	width:60%;
+	margin-top : 5em;
+	margin-left: 23%;
+	font-family: 'Arial';
+	box-shadow: 15px;
+	box-shadow: 5px 5px 5px black;
+
+}
+
+.cadrebody{
+	margin : 3em;
+	padding : 2.5em;
+	text-align: left;
+}
+
+.cadre>footer{
+	padding-bottom : 0.5em;
+	font-style: italic;
+}
+
+
+.boutton-valid{
+	text-align: center;
+	background-color: #65bbf7;
+	width: 100%;
+	border: none;
+	padding: 0.5em;
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+	
+}
+
+
+.boutton-efface{
+	text-align: center;
+	background-color: #f15454;
+	width: 100%;
+	border: none;
+	padding: 0.5em;
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+}
+
+.boutton-efface:hover, .boutton-valid:hover{
+	opacity: 0.6;
+}
+
+
+h1{
+	text-align: center;
+}
+
+
+
+.centre{
+	text-align: center;
+	padding: 1em;
+}
+
+span{
+	color:red;
+}
+
+.legend{
+	text-align: right;
+}
+
+#nom, #prenom, #mdp, #vmdp, #dn, #mail, #fichier, #mail, #pseudo{
+	width: 100%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+#identifiant:hover, #mdp:hover, #vmdp:hover, #dn:hover, #mail:hover, #fichier:hover, #nom:hover, #prenom:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
