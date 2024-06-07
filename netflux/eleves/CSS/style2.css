@@ -1,26 +1,32 @@
 body{
-	background-color: #3e3e3e;
+	background-image: url("../images/tendances/fond-netflux.jpg");
+	background-size: cover;
+	overflow: hidden;
 }
-.cadre{
-	background-color :  #767977 ;
-	border-radius: 15%;
-	border: 2px solid black;
-	text-align : center;
-	font-family: Arial, Helvetica, sans-serif;
-	width:60%;
-	margin-top : 5em;
-	margin-left: 23%;
-	font-family: 'Arial';
-	box-shadow: 15px;
-	box-shadow: 5px 5px 5px black;
 
+
+.cadre{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0,0,0,0.6);
+	width: 35%;
+	padding: 15px;
 }
 
 .cadrebody{
-	margin : 3em;
-	padding : 2.5em;
-	text-align: left;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
 }
+
+
+#infos-connexion{
+	color: white;
+}
+
+
 
 .cadre>footer{
 	padding-bottom : 0.5em;
@@ -30,20 +36,7 @@ body{
 
 .boutton-valid{
 	text-align: center;
-	background-color: #65bbf7;
-	width: 100%;
-	border: none;
-	padding: 0.5em;
-	font-weight: bold;
-	color: white;
-	font-size: 18px;
-	
-}
-
-
-.boutton-efface{
-	text-align: center;
-	background-color: #f15454;
+	background-color: #f71f1f;
 	width: 100%;
 	border: none;
 	padding: 0.5em;
@@ -51,6 +44,7 @@ body{
 	color: white;
 	font-size: 18px;
 }
+
 
 .boutton-efface:hover, .boutton-valid:hover{
 	opacity: 0.6;
@@ -59,6 +53,7 @@ body{
 
 h1{
 	text-align: center;
+	color: white;
 }
 
 
@@ -72,21 +67,40 @@ span{
 	color:red;
 }
 
-.legend{
-	text-align: right;
+
+
+label, legend{
+	color: white;
 }
 
-#nom, #prenom, #mdp, #vmdp, #dn, #mail, #fichier, #mail, #pseudo{
-	width: 100%;
-	padding: 12px 20px;
-	display: inline-block;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
+#nom, #prenom, #mdp, #vmdp, #dn, #mail, #fichier, #pseudo{
+	background-color: rgb(35, 35, 35);
+	color: white;
+	width: 70%;
+	height: 10%;
+	border: none;
 }
 
-#identifiant:hover, #mdp:hover, #vmdp:hover, #dn:hover, #mail:hover, #fichier:hover, #nom:hover, #prenom:hover{
-	opacity: 0.8;
+#result{
+	color: white;
 }
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#unPseudo, #eMail, #mdp_auth{
+	width: 70%;
+	height: 8%;
+	background-color: rgb(35, 35, 35);
+	border: none;
+	color: white;
+	padding-block: 10px;
+}
+
+
 
 
 

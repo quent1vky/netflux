@@ -18,32 +18,27 @@
 				<form method="post" action="traitement_inscription.php">
 
 
-					<label for="nom">Nom : </label> 
-					<input type="text" name="nom" id="nom" /> 
+					<input type="text" name="nom" id="nom" placeholder="Nom" /> 
 
 						<br>
 						<br>
 
-					<label for="nom">Prenom : </label> 
-					<input type="text" name="prenom" id="prenom" /> 
+					<input type="text" name="prenom" id="prenom" placeholder="Prénom"/> 
 
 						<br>
 						<br>
 
-					<label for="pseudo">Pseudo<span>*</span> : </label>
-					<input type="pseudo" name="pseudo" id="pseudo" required>
+					<input type="pseudo" name="pseudo" id="pseudo" placeholder="Pseudo" required>
 
 						<br>
 						<br>
 					
-					<label for="mdp">Mot de passe<span>*</span> : </label>
-					<input type="password" name="mdp" id="mdp" minlength="8" required/>
+					<input type="password" name="mdp" id="mdp" minlength="8" placeholder="Mot de passe" required/>
 
 						<br>
 						<br>
 
-					<label for="vmdp">Valider votre mot de passe<span>*</span> : </label>
-					<input type="password" name="vmdp" id="vmdp" minlength="8" required/>
+					<input type="password" name="vmdp" id="vmdp" minlength="8" placeholder="Valider le mot de passe"required/>
 
 						<br>
 						<br>
@@ -53,13 +48,11 @@
 
 						<br>
 						<br>
-
 					
-					<label for="mail">Adresse mail<span>*</span> : </label>
-					<input type="email" name="mail" id="mail" required>
+					<input type="email" name="mail" id="mail" placeholder="Adresse mail" required>
 					<button id="boutton">validez</button>
 					<div id="result"></div>
-
+			</div>
 
 					
 
@@ -77,7 +70,7 @@
 
 							
 
-							<label for="genre1">Homme<span>*</span></label>
+							<label for="genre1">Homme</label>
 							<input type="radio" name="genre" id="genre1" value ="homme" checked>
 							
 							<label for="genre2">Femme</label>
@@ -93,7 +86,7 @@
 							<br>
 
 							<input type="checkbox" name="terms" id="terms" required>
-							<label for="terms">J'accepte les conditions d'utilisation de ce site <span>*</span> </label>
+							<label for="terms">J'accepte les conditions d'utilisation de ce siteS</label>
 
 
 							<br>
@@ -105,9 +98,6 @@
 
 					
 						
-
-						</div>
-
 					</fieldset>
 
 					<br>
@@ -131,14 +121,6 @@
 
 		</div>
 
-
-		<div class="legend">
-
-
-			<span>*</span>
-			<span>: champs obligatoire</span>
-
-		</div>
 
 	</body>
 <script src="../JS/script.js"></script>

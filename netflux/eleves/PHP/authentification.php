@@ -2,55 +2,64 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<title>Loggin</title>
+		<title>Inscription</title>
 		<link rel="stylesheet" href="../CSS/style2.css">
+		
 	</head>
 	<body>
+
+
 		<div class="cadre">
+
 			<div class="cadrebody">
-				<h1>Authentification</h1>
 
-				<form action="traitement_authentification.php" method="post">
+				<h1>Connexion</h1>
+				
+				<form method="post" action="traitement_authentification.php">
 
-					<label for="pseudo">Pseudo : </label>
-    				<input type="text" name="pseudo" id="pseudo" required />
 
-					<br>
-					<br>
+				<input type="text" name="pseudo" id="unPseudo" placeholder="Pseudo" required />
+
+				<br>
+				<br>
     				
-					<label for="adresse mail">Email : </label>
-    				<input type="text" name="mail" id="mail" required />
+    			<input type="text" name="mail" id="eMail" placeholder="adresse-email" required />
+
+				<br>
+				<br>
 					
-					<br>
-					<br>
-					
-					<label for="mdp">Mot de passe : </label>
-    				<input type="password" name="mdp" id="mdp" required />
+    			<input type="password" name="mdp" id="mdp_auth" placeholder="mot de passe" required />
 
-					<br>
-					<br>
-					
-					<br>
+				<br>
+				<br>
+				<br>
+				<br>
 
-
-
-						<input type="submit" class="boutton-valid" value="Valider"/>
-
-
-					<br>
-					<br>
-
-
-						<input type="reset" class="boutton-efface" value="Effacer"/>
-
+				<input type="submit" class="boutton-valid" value="Valider" required>
+				
+				<br>
+				<br>
 
 				</form>
+
+
+				<footer class="foot">
+
+				<p><a href="inscription.php">Pas de compte ? Inscrivez-vous ICI.</a></p>
+
+
+
+				</footer>
+
 			</div>
 
-			<footer>
-				<p>Pas de compte ? <a href="inscription.php">Cliquez ici.</a></p>
-			</footer>
 
 		</div>
+
+
 	</body>
+<script src="../JS/script.js"></script>
+
 </html>
+
+

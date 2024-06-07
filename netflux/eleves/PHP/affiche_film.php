@@ -168,8 +168,7 @@ foreach ($fd as $f) {
         echo "<ul class='film_bouton'>";
                 
             echo "<li id='imgAf'><img class='imgaF' src='$img' alt=''></li>";
-            echo "<li>" . "<button id='regarder'><a href='b-a.php?video=" . urlencode($video) . "'>" . "Regarder " . $titre . "</a></button>" . "</li>";
-            
+            echo "<li>" . "<button id='regarder'><a>" . "Regarder " . $titre . "</a></button>" . "</li>";
         echo "</ul>";
             
     echo "</div>";

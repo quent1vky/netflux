@@ -90,6 +90,7 @@ h2{
 nav>ul{
     display: flex;
     justify-content: center;
+    align-items: baseline;
 }
 
 nav>ul>li{
@@ -299,7 +300,8 @@ nav>ul>li{
 
 .menu_deroulant{
     position: absolute;
-    right: 40px;
+    top: 15px;
+    right: 55px;
 }
 
 
